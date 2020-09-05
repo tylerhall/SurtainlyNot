@@ -11,16 +11,22 @@
 		C6766FF92503D51D0012F490 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6766FF82503D51D0012F490 /* ViewController.swift */; };
 		C6766FFB2503D51E0012F490 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6766FFA2503D51E0012F490 /* Assets.xcassets */; };
 		C6766FFE2503D51E0012F490 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6766FFC2503D51E0012F490 /* Main.storyboard */; };
+		C676700B2503DBF20012F490 /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = C676700A2503DBF20012F490 /* Window.swift */; };
+		C676700E2503E5480012F490 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C676700C2503E5480012F490 /* WindowController.swift */; };
+		C67670112503F9850012F490 /* MenuItemTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67670102503F9850012F490 /* MenuItemTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C6766FF32503D51D0012F490 /* Jesus Apple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jesus Apple.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6766FF32503D51D0012F490 /* Surtainly Not.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Surtainly Not.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6766FF62503D51D0012F490 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6766FF82503D51D0012F490 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C6766FFA2503D51E0012F490 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6766FFD2503D51E0012F490 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C6766FFF2503D51E0012F490 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C67670002503D51E0012F490 /* Jesus_Apple.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Jesus_Apple.entitlements; sourceTree = "<group>"; };
+		C67670002503D51E0012F490 /* Surtainly_Not.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Surtainly_Not.entitlements; sourceTree = "<group>"; };
+		C676700A2503DBF20012F490 /* Window.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Window.swift; sourceTree = "<group>"; };
+		C676700C2503E5480012F490 /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
+		C67670102503F9850012F490 /* MenuItemTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +43,7 @@
 		C6766FEA2503D51C0012F490 = {
 			isa = PBXGroup;
 			children = (
-				C6766FF52503D51D0012F490 /* Jesus Apple */,
+				C6766FF52503D51D0012F490 /* Surtainly Not */,
 				C6766FF42503D51D0012F490 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,30 +51,33 @@
 		C6766FF42503D51D0012F490 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C6766FF32503D51D0012F490 /* Jesus Apple.app */,
+				C6766FF32503D51D0012F490 /* Surtainly Not.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C6766FF52503D51D0012F490 /* Jesus Apple */ = {
+		C6766FF52503D51D0012F490 /* Surtainly Not */ = {
 			isa = PBXGroup;
 			children = (
 				C6766FF62503D51D0012F490 /* AppDelegate.swift */,
+				C676700C2503E5480012F490 /* WindowController.swift */,
+				C676700A2503DBF20012F490 /* Window.swift */,
 				C6766FF82503D51D0012F490 /* ViewController.swift */,
+				C67670102503F9850012F490 /* MenuItemTextField.swift */,
 				C6766FFA2503D51E0012F490 /* Assets.xcassets */,
 				C6766FFC2503D51E0012F490 /* Main.storyboard */,
 				C6766FFF2503D51E0012F490 /* Info.plist */,
-				C67670002503D51E0012F490 /* Jesus_Apple.entitlements */,
+				C67670002503D51E0012F490 /* Surtainly_Not.entitlements */,
 			);
-			path = "Jesus Apple";
+			path = "Surtainly Not";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C6766FF22503D51C0012F490 /* Jesus Apple */ = {
+		C6766FF22503D51C0012F490 /* Surtainly Not */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C67670032503D51E0012F490 /* Build configuration list for PBXNativeTarget "Jesus Apple" */;
+			buildConfigurationList = C67670032503D51E0012F490 /* Build configuration list for PBXNativeTarget "Surtainly Not" */;
 			buildPhases = (
 				C6766FEF2503D51C0012F490 /* Sources */,
 				C6766FF02503D51C0012F490 /* Frameworks */,
@@ -78,9 +87,9 @@
 			);
 			dependencies = (
 			);
-			name = "Jesus Apple";
-			productName = "Jesus Apple";
-			productReference = C6766FF32503D51D0012F490 /* Jesus Apple.app */;
+			name = "Surtainly Not";
+			productName = "Surtainly Not";
+			productReference = C6766FF32503D51D0012F490 /* Surtainly Not.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -98,7 +107,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C6766FEE2503D51C0012F490 /* Build configuration list for PBXProject "Jesus Apple" */;
+			buildConfigurationList = C6766FEE2503D51C0012F490 /* Build configuration list for PBXProject "Surtainly Not" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,7 +120,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C6766FF22503D51C0012F490 /* Jesus Apple */,
+				C6766FF22503D51C0012F490 /* Surtainly Not */,
 			);
 		};
 /* End PBXProject section */
@@ -134,7 +143,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6766FF92503D51D0012F490 /* ViewController.swift in Sources */,
+				C676700E2503E5480012F490 /* WindowController.swift in Sources */,
+				C676700B2503DBF20012F490 /* Window.swift in Sources */,
 				C6766FF72503D51D0012F490 /* AppDelegate.swift in Sources */,
+				C67670112503F9850012F490 /* MenuItemTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,19 +281,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Jesus Apple/Jesus_Apple.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Surtainly Not/Surtainly_Not.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3A6K89K388;
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = "Jesus Apple/Info.plist";
+				INFOPLIST_FILE = "Surtainly Not/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "io.tyler.Jesus-Apple";
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.tyler.SurtainlyNot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
@@ -289,26 +304,29 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Jesus Apple/Jesus_Apple.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Surtainly Not/Surtainly_Not.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3A6K89K388;
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = "Jesus Apple/Info.plist";
+				INFOPLIST_FILE = "Surtainly Not/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "io.tyler.Jesus-Apple";
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.tyler.SurtainlyNot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C6766FEE2503D51C0012F490 /* Build configuration list for PBXProject "Jesus Apple" */ = {
+		C6766FEE2503D51C0012F490 /* Build configuration list for PBXProject "Surtainly Not" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C67670012503D51E0012F490 /* Debug */,
@@ -317,7 +335,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C67670032503D51E0012F490 /* Build configuration list for PBXNativeTarget "Jesus Apple" */ = {
+		C67670032503D51E0012F490 /* Build configuration list for PBXNativeTarget "Surtainly Not" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C67670042503D51E0012F490 /* Debug */,
